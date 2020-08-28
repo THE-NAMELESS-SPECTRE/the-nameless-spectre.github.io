@@ -6,7 +6,7 @@
   <link href="http://the-nameless-spectre.github.io/atom.xml" rel="self"/>
   
   <link href="http://the-nameless-spectre.github.io/"/>
-  <updated>2020-08-25T14:07:45.010Z</updated>
+  <updated>2020-08-27T16:27:25.000Z</updated>
   <id>http://the-nameless-spectre.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LOG[2020-08-28]</title>
+    <link href="http://the-nameless-spectre.github.io/post/LOG[2020-08-28].html"/>
+    <id>http://the-nameless-spectre.github.io/post/LOG[2020-08-28].html</id>
+    <published>2020-08-27T16:27:25.000Z</published>
+    <updated>2020-08-27T16:27:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>其实这个博客早在去年就已经建好了</p><p>最开始用的是<span class="math inline">\(NexT\)</span>主题</p><p>最新版记得好像是<span class="math inline">\(5.x\)</span></p><p>但是不知道为啥</p><p><span class="math inline">\(NexT\)</span>主题仓库迁移过好几次</p><p>于是我就傻乎乎的去了旧版仓库下了个<span class="math inline">\(4.x\)</span>的版本</p><p>那个时候的<span class="math inline">\(NexT\)</span>好像对<span class="math inline">\(\LaTeX\)</span>的支持不太好</p><p>于是又是一阵折腾</p><p>看博客说好像要下<span class="math inline">\(pandoc\)</span></p><p>那时候不知道<span class="math inline">\(GitHub\)</span>有镜像站</p><p>也不知道多线程下载</p><p>于是放弃了</p><p>后来看<a href="https://stevenmhy.tk/">学长的博客</a>好像能支持</p><p>但他用的是<a href="https://xaoxuu.com/wiki/material-x/"><span class="math inline">\(Material~X\)</span></a>也就是现在的<a href="https://volantis.js.org/"><span class="math inline">\(Volantis\)</span></a>主题</p><p>就没再管</p><p>并且反正暂时配不出来</p><p>就连<span class="math inline">\(repo\)</span>一起删了</p><p>后来, 也就是大概今年4月份的亚子</p><p>想起来并配好了本地预览</p><p>但是这时候出锅了</p><p>原因是<span class="math inline">\(Hexo~4.2.0\)</span>与最新的(非<span class="math inline">\(LTS\)</span>版)<span class="math inline">\(Nodejs~14.2.0\)</span>有兼容问题</p><p>等了几天<span class="math inline">\(Nodejs\)</span>升级了, <span class="math inline">\(Hexo~4.2.1\)</span>并没有像我预料之中的解决问题(这个<span class="math inline">\(issue\)</span>早在去年9月份就有了, 这个小版本也是根据某位热心人士的<span class="math inline">\(Bug Fixed\)</span>发布的)</p><p>又咕了几个月</p><p>中间听说<span class="math inline">\(Hexo~5.0.0\)</span>大版本发布了</p><p>但是没时间</p><p>就拖到了八月底</p><p>想了想还是<span class="math inline">\(NexT\)</span>好</p><p>于是就有了下面的zz经历</p><p>博客折腾了半天, 终于配置好了</p><p>原因是我的网名太长</p><p>侧边栏显示需要换行</p><p>于是就想着把字体改小一点</p><p>最开始照常在<code>next/_config.yml</code>里改</p><p>改了半天, <code>hexo s</code>后本地没反应</p><p>看到有人说必须要<span class="math inline">\(push\)</span>到<span class="math inline">\(GitHub\)</span>上才行</p><p>于是我浪费了一次宝贵的<span class="math inline">\(commit\)</span>机会</p><p>查了大概几个小时</p><p>官方文档都被我翻烂了</p><p>没找到</p><p>最后在一个几年前的博客了找到了答案</p><p><code>enable: true</code></p><p>我淦</p><p>回去一看</p><p>果然</p><p>我配置文件那里</p><p>一个大大的<code>false</code></p><p>wtm哪个**把这个默认设为<code>false</code>的啊</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;其实这个博客早在去年就已经建好了&lt;/p&gt;
+&lt;p&gt;最开始用的是&lt;span class=&quot;math inline&quot;&gt;\(NexT\)&lt;/span&gt;主题&lt;/p&gt;
+&lt;p&gt;最新版记得好像是&lt;span class=&quot;math inline&quot;&gt;\(5.x\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
